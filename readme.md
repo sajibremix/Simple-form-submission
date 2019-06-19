@@ -11,6 +11,8 @@
 <p>Framework: <b>Laravel</b></p>
 <p>Library: <b>bootstrap, jquery, datetimepicker, jquery validator</b></p>
 
+<a href="http://jshossen.com/simple_form_submission/public/">Demo / Live preview</a>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
