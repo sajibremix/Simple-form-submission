@@ -7,7 +7,7 @@
 <p>Framework: <b>Laravel</b></p>
 <p>Library: <b>bootstrap, jquery, datetimepicker, jquery validator</b></p>
 
-create a database: simple_form_submission
+create a database: <b>simple_form_submission</b>
 <br>
 ## command
 <pre>php artisan migrate</pre>

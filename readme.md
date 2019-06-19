@@ -14,8 +14,7 @@
 <a href="http://jshossen.com/simple_form_submission/public/">Demo / Live preview</a>
 
 
-create a database: simple_form_submission
-then 
+create a database: <b>simple_form_submission</b>
 ## command
 <pre>php artisan migrate</pre>
 <pre>php artisan serve</pre>
