@@ -40,8 +40,9 @@ class FormsController extends Controller
         $this->validate($request, [
             'amount'=>'required|max:10',
             'buyer'=>'required|max:255',
+            'buyer'=>'required|max:255',
             'receipt_id'=>'required|max:20',
-            'items'=>'required|max:255',
+            'items.*'=>'required|max:255',
             'buyer_email'=>'required|email|max:50',
             'note'=>'required',
             'city'=>'required|max:20',
@@ -61,7 +62,7 @@ class FormsController extends Controller
         $forms->amount = $request->input('amount');
         $forms->buyer = $request->input('buyer');
         $forms->receipt_id = $request->input('receipt_id');
-        $forms->items = $request->input('items');
+        $forms->items = json_encode($request->input('items'));
         $forms->buyer_email = $request->input('buyer_email');
         $forms->buyer_ip = $request->ip();
         $forms->note = $request->input('note');

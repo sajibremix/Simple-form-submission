@@ -14,7 +14,7 @@
 				amount: {required: true, number: true, maxlength: 10},
 				buyer: {required: true, letter_number_space: true, maxlength: 255},
 				receipt_id: {required: true, maxlength: 20},
-				items: {required: true, maxlength: 255},
+				'items[]': {required: true, maxlength: 255},
 				buyer_email: {required: true, email: true, maxlength: 50},
 				note: {required: true, maxwordCount: ['30']},
 				city: {required: true, letter_space: true, maxlength: 20},
@@ -118,5 +118,9 @@
 
 	function eraseCookie(name) {
 	    createCookie(name,"",-1);
+	}
+
+	function add_more_item(){
+		$('.all_item_wrapper').append($($('.single_item_wrapper')[0]).clone())
 	}
 </script>

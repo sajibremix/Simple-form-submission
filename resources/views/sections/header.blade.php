@@ -18,6 +18,7 @@
       <div class="jumbotron">
         <h1>Simple form submission</h1> 
         <p>Demo project done by <b>Jakir Hossen</b></p> 
+        <p>Email: jshossen01@gmail.com</p>
       </div>
 
       <!-- Navbar Area Starts -->

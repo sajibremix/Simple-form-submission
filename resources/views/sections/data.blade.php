@@ -25,7 +25,11 @@
       <td>{{$single_data->amount}}</td>
       <td>{{$single_data->buyer}}</td>
       <td>{{$single_data->receipt_id}}</td>
-      <td>{{$single_data->items}}</td>
+      <td>
+        @foreach(json_decode($single_data->items) as $key=>$item)
+          Item {{$key+1}}. {{$item}}<br>
+        @endforeach
+      </td>
       <td>{{$single_data->buyer_email}}</td>
       <td>{{$single_data->buyer_ip}}</td>
       <td>{{$single_data->note}}</td>

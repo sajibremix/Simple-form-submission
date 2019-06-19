@@ -17,7 +17,8 @@
 create a database: simple_form_submission
 then 
 ## command
-<p>php artisan migrate</p>
+<pre>php artisan migrate</pre>
+<pre>php artisan serve</pre>
 
 ## About Laravel
 

@@ -28,13 +28,33 @@
                    <p class="error"></p>
                 </div>
              </div>
-             <div class="form-group">
-                <label class="col-md-4 control-label">Items</label>
-                <div class="col-md-8 inputGroupContainer">
-                   <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-star"></i></span><input name="items" placeholder="Items" class="form-control" required="true" value="" type="text"></div>
-                   <p class="error"></p>
-                </div>
+
+
+             <div>
+               <div class="all_item_wrapper">
+                 
+                 <div class="form-group single_item_wrapper">
+                    <label class="col-md-4 control-label">Items</label>
+                    <div class="col-md-8 inputGroupContainer">
+                       <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-star"></i></span><input name="items[]" placeholder="Items" class="form-control" required="true" value="" type="text"></div>
+                       <p class="error"></p>
+                    </div>
+                 </div>
+
+               </div>
+
+               <div class="form-group">
+                  <label class="col-md-4 control-label"></label>
+                  <div class="col-md-8 inputGroupContainer">
+                     <button class="btn btn-info" type="button" onclick="add_more_item();">Add more</button>
+                  </div>
+               </div>
+
              </div>
+             
+
+
+
              <div class="form-group">
                 <label class="col-md-4 control-label">buyer_email</label>
                 <div class="col-md-8 inputGroupContainer">
