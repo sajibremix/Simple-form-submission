@@ -5,7 +5,7 @@
 
 <h1>#Simple form submission application</h1>
 <p>Framework: <b>Laravel</b></p>
-<p>Library: <b>bootstrap, jquery, datetimepicker</b></p>
+<p>Library: <b>bootstrap, jquery, datetimepicker, jquery validator</b></p>
 @endsection
 
 
